@@ -1,0 +1,6 @@
+framework module Pods_SSQBaseComponents {
+  umbrella header "Pods-SSQBaseComponents-umbrella.h"
+
+  export *
+  module * { export * }
+}
