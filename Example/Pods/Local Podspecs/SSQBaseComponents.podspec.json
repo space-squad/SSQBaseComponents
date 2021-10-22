@@ -1,0 +1,22 @@
+{
+  "name": "SSQBaseComponents",
+  "version": "0.1.0",
+  "summary": "A short description of SSQBaseComponents.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Malte Schoppe/SSQBaseComponents",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Malte Schoppe": "mse@spacesquad.de"
+  },
+  "source": {
+    "git": "https://github.com/Malte Schoppe/SSQBaseComponents.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "SSQBaseComponents/Classes/**/*"
+}

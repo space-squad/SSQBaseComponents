@@ -39,11 +39,11 @@
 		607FACE51AFB9204008FA782 /* SSQBaseComponents_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SSQBaseComponents_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		6775646F7688BD3E5B8348AA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		96A1BB53ADCB2FDB9EB9927B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		6775646F7688BD3E5B8348AA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		96A1BB53ADCB2FDB9EB9927B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		A83EDAA6D145B7B18C73E293 /* Pods-SSQBaseComponents_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSQBaseComponents_Example.release.xcconfig"; path = "Target Support Files/Pods-SSQBaseComponents_Example/Pods-SSQBaseComponents_Example.release.xcconfig"; sourceTree = "<group>"; };
 		CCA9000C484FAECC62B53CD5 /* Pods-SSQBaseComponents_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSQBaseComponents_Example.debug.xcconfig"; path = "Target Support Files/Pods-SSQBaseComponents_Example/Pods-SSQBaseComponents_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		D3C3417ED1ABFA64A0BD3925 /* SSQBaseComponents.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SSQBaseComponents.podspec; path = ../SSQBaseComponents.podspec; sourceTree = "<group>"; };
+		D3C3417ED1ABFA64A0BD3925 /* SSQBaseComponents.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SSQBaseComponents.podspec; path = ../SSQBaseComponents.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D6B29D91AD6FD05B3B7FD60F /* Pods-SSQBaseComponents_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSQBaseComponents_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SSQBaseComponents_Tests/Pods-SSQBaseComponents_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E23F6E295A39031E2D3D3839 /* Pods_SSQBaseComponents_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SSQBaseComponents_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E862CF373C1C2014E5FFC8D2 /* Pods-SSQBaseComponents_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSQBaseComponents_Tests.release.xcconfig"; path = "Target Support Files/Pods-SSQBaseComponents_Tests/Pods-SSQBaseComponents_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -77,7 +77,6 @@
 				D6B29D91AD6FD05B3B7FD60F /* Pods-SSQBaseComponents_Tests.debug.xcconfig */,
 				E862CF373C1C2014E5FFC8D2 /* Pods-SSQBaseComponents_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -228,6 +227,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
